@@ -5,9 +5,10 @@ Este é um projeto de demonstração que implementa um relógio mundial utilizan
 ## Funcionalidades
 
 -   Exibe a hora local do usuário em tempo real.
--   Permite selecionar diferentes fusos horários (São Paulo, Lisboa, Tóquio, etc.) a partir de uma lista.
+-   Permite selecionar diferentes fusos horários a partir de uma lista.
 -   Busca e exibe a hora atual para o fuso horário selecionado, consumindo uma API de backend.
--   Apresenta uma animação de carregamento elegante durante a busca dos dados, com um delay mínimo para melhor experiência do usuário.
+-   Apresenta uma animação de carregamento elegante com um tempo de exibição mínimo para uma melhor experiência do usuário.
+-   **Tratamento de erros interativo:** Em caso de falha na comunicação com a API, exibe um botão "Tentar novamente".
 -   Interface estilizada e responsiva.
 
 ## Tecnologias Utilizadas
