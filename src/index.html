@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Apache com Docker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Relógio Mundial com Microserviços</h1>
+        <p>Selecione uma zona horária para ver a hora atual.</p>
+
+        <div class="time-selector">
+            <select id="timezone-select">
+                <option value="America/Sao_Paulo">São Paulo</option>
+                <option value="Europe/Lisbon">Lisboa</option>
+                <option value="Asia/Tokyo">Tóquio</option>
+                <option value="America/New_York">Nova York</option>
+            </select>
+            <div id="local-time-display"></div>
+            <div id="loader" class="hidden">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="time-display">Selecione uma zona horária para começar.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Richard Anthony Gomez Arcos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
